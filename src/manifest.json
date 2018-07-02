@@ -1,7 +1,7 @@
 {
-  "name": "Harvest/Jira worklog integration",
-  "short_name": "Harvest/JIRA worklog",
-  "version": "1.0.3",
+  "name": "Harvest to Jira worklog integration",
+  "short_name": "Harvest-JIRA worklog",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Puts a button in Harvest that let's you log your harvest time directly into JIRA",
   "background": {
@@ -10,7 +10,7 @@
       "scripts/background.js"
     ]
   },
-  "web_accessible_resources":[
+  "web_accessible_resources": [
     "html/modal.html"
   ],
   "browser_action": {
@@ -18,7 +18,7 @@
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "Harvest/Jira worklog integration"
+    "default_title": "Harvest to Jira worklog integration"
   },
   "icons": {
     "16": "images/icon-16.png",

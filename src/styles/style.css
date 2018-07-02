@@ -1,3 +1,8 @@
-.harvest-jira > button.button.button-small{
-  padding-right:0;
+.harvest-jira > button.hui-button.hui-button-small {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.harvest-jira > button.hui-button.hui-button-large {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
