@@ -1,4 +1,4 @@
-# harvest-to-jira-worklog-integration
+# Harvest to JIRA worklog integration
 
 Adds a button in Harvest that lets you import your Harvest logged time directly into JIRA
 
@@ -14,14 +14,14 @@ It gets pretty annoying to waste time calculating mere minutes, with this tool a
 
 ## Installing from Source
 
-1. Clone the repository: `git clone git@github.com:josrom/harvest-jira-worklog-integration.git`
+1. Clone the repository: `git clone git@github.com:JoseVte/harvest-jira-worklog-integration.git`
 2. Navigate to chrome://extensions/ and enable "Developer Mode".
 3. Choose "Load unpacked extension..."
 4. Open the `src/` directory inside the `harvest-jira-worklog-integration` directory you just cloned
 5. Right click the extension icon and click on "Options"
 6. Enter your username and password for JIRA
 
-## Installing from Chrome Web Store
+## Installing from Chrome Web Store **(DEPRECATED)**
 
 1. Go to [Harvest/Jira worklog integration](https://chrome.google.com/webstore/detail/harvestjira-worklog-integ/jnljfejacjncgpphbcpenmfjgdpeaapd) in the Chrome Web Store.
 2. Click on "Add to Chrome"
@@ -31,3 +31,5 @@ It gets pretty annoying to waste time calculating mere minutes, with this tool a
 The application icon was taken from [Fontawesome](http://fontawesome.io)
 
 Ironically some of the code was taken from [Toggl button](https://github.com/toggl/toggl-button)
+
+The package is a fork of https://github.com/eatskolnikov/harvest-jira-worklog-integration updated to new Harvest GUI
