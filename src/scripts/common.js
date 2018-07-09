@@ -94,7 +94,7 @@ var harvestJiraButton = {
                         var harvestData =  harvestTimeSpent.split(':');
                         var hours = harvestData[0];
                         var minutes = harvestData[1];
-                        var convertedTime = hours + "h " + minutes + "m";
+                        var convertedTime = hours.trim() + "h " + minutes.trim() + "m";
                         var context = {
                             tasktitle: jiraTaskTitle,
                             worklogs: data.worklogs,
